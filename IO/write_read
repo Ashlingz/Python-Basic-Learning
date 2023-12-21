@@ -1,0 +1,24 @@
+import io
+
+# Get the user's names as input separated by commas
+names_input = input("Enter names separated by commas: ")
+
+# Split the input string into individual names
+names = names_input.split(",")
+
+# Create a buffered writer object.
+with io.open("output.txt", "a") as buffered_writer:
+    # Write each name to the file.
+    for name in names:
+        buffered_writer.write(name.strip() + "\n")
+
+# Create a buffered reader object.
+with io.open("output.txt", "r") as buffered_reader:
+    # Read the text from the file.
+    text = buffered_reader.read()
+
+# Print the array list.
+print(names)
+
+# Print the text.
+print(text)

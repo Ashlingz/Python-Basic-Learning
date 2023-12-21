@@ -1,0 +1,9 @@
+Sing,M,12
+King,F,45
+Huy,F,22
+Ki,F,45
+Ki,F,45
+Lolo,M,33
+Ray,F,45
+Hong,F,23
+Name,f,22
